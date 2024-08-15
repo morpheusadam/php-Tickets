@@ -1,0 +1,12 @@
+github: [morpheusadam] # Replace with your GitHub username
+
+# Custom funding links
+custom:
+  - platform: PayPal
+    url: https://www.paypal.me/morpheusadam # Replace with your PayPal.me link
+  - platform: BuyMeACoffee
+    url: https://www.buymeacoffee.com/morpheusadam # Replace with your BuyMeACoffee link
+  - platform: Patreon
+    url: https://www.patreon.com/morpheusadam # Replace with your Patreon link
+  - platform: Ko-fi
+    url: https://ko-fi.com/morpheusadam # Replace with your Ko-fi link
