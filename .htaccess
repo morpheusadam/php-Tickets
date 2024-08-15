@@ -1,0 +1,39 @@
+# BEGIN Tatwerat
+
+IndexIgnore *
+RewriteEngine On
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+ErrorDocument 404 "<h1 style='color:#c00; text-align:center;'>404 <br> Page Not Found</h1>"
+RewriteRule ^login/redirect=(.*)$  ?page=login&redirect=$1
+RewriteRule ^login  ?page=login
+RewriteRule ^fblogin  ?page=fb-login
+RewriteRule ^logout  ?page=logout
+RewriteRule ^register  ?page=register
+RewriteRule ^logout  ?page=logout
+RewriteRule ^forgot-password  ?page=forgot-password
+RewriteRule ^edit-profile  ?page=edit-profile
+RewriteRule ^edit-profile/id/(.*)$  ?page=edit-profile&id=$1
+#activeUser page
+RewriteRule ^active_user/user_key/(.*)$ ?page=active-account&user_key=$1
+RewriteRule ^active_user/id/(.*)$ ?page=active_user&user_id=$1 
+RewriteRule ^active_user ?page=active_user
+#tickets
+RewriteRule ^tickets/create/user-id/(.*)$ ?page=create-ticket&user-id=$1
+RewriteRule ^tickets/create ?page=create-ticket
+RewriteRule ^tickets/view/(.*)$ ?page=view-ticket&id=$1
+#sms
+RewriteRule ^sms/create/user-id/(.*)$ ?page=create-sms&user-id=$1
+RewriteRule ^sms/create ?page=create-sms
+RewriteRule ^sms/view/(.*)$ ?page=view-sms&id=$1
+#get-ajax
+RewriteRule ^get-ajax/(.*)$ ?get-ajax=$1
+#admin-ajax
+RewriteRule ^ajax/(.*)$ ajax.php?function=$1
+RewriteRule ^ajax ajax.php
+#main pages
+RewriteRule ^main/(.*)$ ?main=show&sub_page=$1
+RewriteRule ^main ?main=show
+#setup-page
+RewriteRule ^setup controller/setup/setup.php
+# END Tatwerat

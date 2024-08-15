@@ -1,0 +1,205 @@
+/*
+-> AH CSS
+-> TATWERAT FRAMEWORK
+*/
+@charset "utf-8";
+@import "bootstrap/bootstrap.min.css";
+@import "reset.css";
+@import "font-awesome.min.css";
+@import "animate.css";
+@import "ah-forms-ui.css";
+@import "bootstrap-social.css";
+@import "../js/mini-colors/minicolors.css";
+/*@import "../js/owl-carousel/owl.carousel.css";
+@import "../js/owl-carousel/owl.theme.css";
+@import "../js/owl-carousel/owl.transitions.css";*/
+#Wrapper { margin: 0px; visibility: hidden; opacity: 0; }
+.hidden_scroll {
+    opacity: 0;
+    visibility: hidden;
+}
+.visible_scroll {
+    opacity: 1;
+    visibility: visible;
+}
+.fixed_scroll {
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+    left: 0;
+    width: 100%!important;
+}
+/*#- Design Css -#*/
+.scroll_top {
+    background: url(../images/Icons/up.png) no-repeat top center;
+    width: 49px;
+    height: 49px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+.desciption {
+    padding: 5px;
+    font-size: 10px;
+    background-repeat: no-repeat;
+}
+.interieur {
+    padding: 3px 8px;
+    background-color: #000;
+    color: #fff;
+    max-width: 250px;
+    text-align: center;
+    font-size: 14px !important;
+    font-family: 'tahoma' !important;
+}
+.sud {
+    background-image: url(../images/tipsy-north.gif);
+    background-position: center top;
+}
+.nord {
+    background-image: url(../images/tipsy-south.gif);
+    background-position: center bottom;
+}
+.est {
+    background-image: url(../images/tipsy-east.gif);
+    background-position: right center;
+}
+.ouest {
+    background-image: url(../images/tipsy-west.gif);
+    background-position: left center;
+}
+.minicolors-theme-default.minicolors, .minicolors-theme-default .minicolors-input {
+    width: 100%;
+}
+.minicolors-theme-default .minicolors-swatch {
+    width: 26px;
+    height: 24px;
+}
+.fa-2x {
+    font-size: 18px;
+}
+.error {
+    margin: 0 auto;
+    text-align: center;
+}
+.error i.fa-warning {
+    display: block;
+}
+.error-code {
+    color: #c00;
+    font-size: 120px;
+    font-weight: bold;
+    line-height: 100px;
+}
+.error-desc {
+    font-size: 12px;
+    color: #647788;
+}
+.twitter-typeahead{
+    width:100%;
+}
+.twitter-typeahead .tt-query,
+.twitter-typeahead .tt-hint {
+    margin-bottom: 0;
+}
+.tt-dropdown-menu {
+    min-width: 160px;
+    margin-top: 2px;
+    padding: 5px 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.2);
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    width:100%;        
+}
+.tt-suggestion {
+    display: block;
+}
+.tt-suggestion p {
+    color: #666 !important;
+    text-align: left;
+    padding: 3px 15px;
+    margin: 0px !important;
+}
+.tt-suggestion p:hover {
+    background: #eee;
+    color: #333 !important;
+}
+.tt-suggestion p {
+    margin: 0;
+}
+.strength_meter {
+    position: absolute;
+    right: 0px;
+    top: 0;
+    width: 100%;
+    height: 46px;
+    border-radius: 5px;
+    padding-left: 13px;
+    pointer-events: none;
+}
+.button_strength {
+text-decoration: none;
+color: #666;
+font-size: 13px;
+}
+.strength_meter div {
+    width: 0%;
+    height: 46px;
+    text-align: right;
+    color: #000;
+    line-height: 46px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.strength_meter div p {
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    color: #666;
+    font-size: 13px;
+}
+
+.veryweak{
+background-color: rgba(255, 160, 160, 0.7);
+border-color: #F04040!important;
+width:25%!important;
+}
+.weak{
+background-color: rgba(255, 183, 140, 0.7);
+border-color: #FF853C!important;
+width:50%!important;
+}
+.medium{
+background-color: rgba(255, 236, 139, 0.7);
+border-color: #FC0!important;
+width:75%!important;
+}
+.strong{
+background-color: rgba(195, 255, 136, 0.7);
+border-color: #8DFF1C!important;
+width:100%!important;
+}
+#registerForm input[type="password"],#registerForm input[type="text"]{
+-webkit-appearance: none;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
+-webkit-backface-visibility: hidden;
+width:100%;
+}
+#registerForm input[type="password"]:focus,#registerForm input[type="text"]:focus{
+outline:0;
+}

@@ -1,0 +1,86 @@
+/*
+* RTL Style
+*/
+@charset "utf-8";
+@imp: !important;
+/* google fonts */
+@font-face {
+    font-family: 'Droid Arabic Kufi';
+    font-style: normal;
+    font-weight: 200;
+    src: url(http://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v3/DroidKufi-Regular.eot);
+    src: url(http://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v3/DroidKufi-Regular.eot?#iefix) format('embedded-opentype'),
+        url(http://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v3/DroidKufi-Regular.woff2) format('woff2'),
+        url(http://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v3/DroidKufi-Regular.woff) format('woff'),
+        url(http://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v3/DroidKufi-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Droid Arabic Kufi';
+    font-style: normal;
+    font-weight: 700;
+    src: url(http://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v3/DroidKufi-Bold.eot);
+    src: url(http://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v3/DroidKufi-Bold.eot?#iefix) format('embedded-opentype'),
+        url(http://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v3/DroidKufi-Bold.woff2) format('woff2'),
+        url(http://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v3/DroidKufi-Bold.woff) format('woff'),
+        url(http://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v3/DroidKufi-Bold.ttf) format('truetype');
+}
+body {
+    font-family: 'Droid Arabic Kufi';
+}
+#Wrapper .ah-panel > h2.has-menu {
+    padding-left: 0px;
+    padding-right: 10px;
+    text-align: right;
+}
+#Wrapper .ah-panel > h2 {
+    line-height: 65px;
+}
+#Wrapper .welcome-login h2 {
+    font-size: 30px;
+    line-height: 65px;
+}
+#Wrapper .ah-panel > h2.has-menu a {
+    float: left;
+    margin: 15px 0px 0 15px;
+}
+.nav-tabs > li > a {
+    margin-right: -10px;
+    margin-left: 5px;
+}
+#Wrapper .form-control-feedback {
+    border-right: 0px;
+    border-left: 1px solid #ddd;
+    color: #aaa;
+    left: inherit;
+    right: 0;
+}
+.form-control.input-padding {
+    padding-left: 12px !important;
+    padding-right: 55px !important;
+}
+.fancy-select .form-control::after {
+    right: inherit;
+    left: 10px;
+}
+.file-input .btn {
+    right: auto;
+    left: 3px !important;
+}
+#Wrapper .ah-panel .ah-panel-body #dashboard .ah_rang .stats_block span {
+    right: auto;
+    left: 15px;
+}
+#Wrapper .ah-panel .ah-panel-body .dataTables_wrapper .row .dataTables_filter label {
+    float: left;
+}
+#Wrapper .ah-panel .replies ul li .reply .head .rate, #Wrapper .ah-panel .replies ul li .reply .head .btn-delete {
+    float: left;
+    direction: rtl;
+}
+#Wrapper .ah-panel .replies ul li.admin .reply .head {
+    direction: ltr;
+}
+#Wrapper .ah-panel .panel-ticket .panel-heading h3 .label {
+    margin-right: 0px;
+    margin-left: 6px;
+}
