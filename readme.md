@@ -64,3 +64,8 @@ Here are some screenshots of the script in action:
 ---
 
 **Note**: This script includes various third-party libraries and assets. Please refer to their respective licenses for more information.
+## 📞 Contact Me
+<div align="center">
+    <a href="https://www.linkedin.com/in/hesam-ahmadpour" style="color: red; font-size: 20px; text-decoration: none;">LinkedIn</a> |
+    <a href="https://t.me/morpheusadam" style="color: red; font-size: 20px; text-decoration: none;">Telegram</a>
+</div>
